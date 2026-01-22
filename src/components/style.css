@@ -1,0 +1,149 @@
+body{
+    background-image: url(https://img.freepik.com/free-vector/prickly-juniper-branch-beige-gray-minimal-background_53876-113047.jpg);
+    background-size: cover;
+}
+
+.head{
+    background-color: whitesmoke;
+    display: flex;
+    gap: 20px;
+    padding: 20px;
+    border-radius: 10px;
+    border:2px solid grey;
+    color:white;
+}
+.main{
+    display:flex;
+    gap:50px;
+    padding: 30px;
+    color:white;
+    border-radius: 10px;
+    border:2px solid grey;
+    background-color: gray;
+    margin-left: 450px;
+    margin-top: 100px;
+    width: 600px;
+}
+
+
+.contact-container {
+  
+  background: grey;
+  padding: 40px;
+  color: #fff;
+  font-family: "Segoe UI", sans-serif;
+  margin-left: 300px;
+    margin-top: 100px;
+    border-radius: 10px;
+    border:2px solid grey;
+    
+  
+}
+
+.contact-header {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.contact-header h1 {
+  font-size: 42px;
+  margin-bottom: 10px;
+}
+
+.contact-header p {
+  font-size: 18px;
+  opacity: 0.9;
+}
+
+.contact-content {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  flex-wrap: wrap;
+}
+
+.contact-info,
+.contact-form {
+  background: #ffffff;
+  color: #333;
+  padding: 30px;
+  border-radius: 16px;
+  width: 350px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.15);
+  transition: transform 0.3s ease;
+}
+
+.contact-info:hover,
+.contact-form:hover {
+  transform: translateY(-8px);
+}
+
+.contact-info h2,
+.contact-form h2 {
+  margin-bottom: 15px;
+  color: #5a4fcf;
+}
+
+.info-item {
+  display: flex;
+  align-items: center;
+  margin: 12px 0;
+}
+
+.info-item span {
+  font-size: 22px;
+  margin-right: 10px;
+}
+
+.back-link {
+  display: inline-block;
+  margin-top: 20px;
+  color: #5a4fcf;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.back-link:hover {
+  text-decoration: underline;
+}
+
+/* Form */
+.contact-form form {
+  display: flex;
+  flex-direction: column;
+}
+
+.contact-form input,
+.contact-form textarea {
+  margin-bottom: 15px;
+  padding: 12px;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  font-size: 14px;
+}
+
+.contact-form input:focus,
+.contact-form textarea:focus {
+  outline: none;
+  border-color: #5a4fcf;
+}
+
+.contact-form button {
+  background: #5a4fcf;
+  color: #fff;
+  padding: 12px;
+  border: none;
+  border-radius: 8px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.contact-form button:hover {
+  background: #473dcf;
+}
+
+p{
+  font-size: xx-large;
+  font-weight: bold;
+}
